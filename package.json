@@ -1,0 +1,33 @@
+{
+  "name": "map-tabular-keys",
+  "version": "1.0.0",
+  "description": "Transform the keys of a tabular object stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "dependencies": {
+    "inherits": "~2.0.1",
+    "readable-stream": "~1.0.33",
+    "xtend": "~4.0.0"
+  },
+  "devDependencies": {
+    "concat-stream": "~1.4.8",
+    "from2-array": "0.0.3",
+    "snake-case": "~1.1.1",
+    "tape": "~4.0.0"
+  },
+  "keywords": [
+    "tabular",
+    "map",
+    "keys"
+  ],
+  "author": "Vincent Weevers (http://vincentweevers.nl)",
+  "license": "MIT",
+  "repository": "git://github.com/vweevers/map-tabular-keys",
+  "bugs": "https://github.com/vweevers/map-tabular-keys/issues",
+  "homepage": "https://github.com/vweevers/map-tabular-keys",
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
